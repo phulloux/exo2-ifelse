@@ -13,7 +13,7 @@ public class App {
         System.out.println("Combien gagnez vous par an : ");
         int salaireAnnuel = clavier.nextInt();
 
-        if(travailMoins2Ans == true && salaireAnnuel <= 30000){
+        if(travailMoins2Ans == true && salaireAnnuel >= 30000){
             System.err.println("Vous pouvez avoir un prêt");
         }
         else{
